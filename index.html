@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+    let sotiengui, laisuat, sonam, lai_1nam, sotiengoc_lai;
+    sotiengui = +prompt("Nhap so tien gui vnd");
+    laisuat = +prompt("nhap lai suat");
+    sonam = +prompt("nhap so nam");
+    lai_1nam = sotiengui * (laisuat/100);
+    sotiengoc_lai = sotiengui + (lai_1nam *sonam);
+    document.write("Số tiền cả gốc lẫn lãi mà ngân hàng phải trả " + "sau " + sonam + " năm là: " + (sotiengoc_lai.toLocaleString ('en-US')) + "đồng");
+</script>
